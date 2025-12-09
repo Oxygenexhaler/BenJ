@@ -1,0 +1,39 @@
+/* Wrapper that holds the three vertical background sections */
+.background-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: -1; /* keeps backgrounds behind your content */
+}
+
+/* Shared background styles */
+.bg {
+    background-size: cover;      /* fill area */
+    background-position: center;
+}
+
+/* Panels */
+.left-bg {
+    width: 20%;
+    background-image: url("left.png");
+}
+
+.center-bg {
+    width: 60%;
+    background-image: url("center.png");
+}
+
+.right-bg {
+    width: 20%;
+    background-image: url("right.png");
+}
+
+/* Your content stays above the backgrounds */
+.content {
+    position: relative;
+    z-index: 10;
+    padding: 30px;
+}
