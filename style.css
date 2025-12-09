@@ -42,9 +42,15 @@ h1 {
     font-size: 24px;
     color: white;             /* text color */
     text-decoration: none;    /* remove underline */
-    background-color: #3498db; /* blue box */
+    background-color: lightgray; /* blue box */
     padding: 10px 15px;       /* space inside box */
     border-radius: 6px;       /* rounded corners (optional) */
+}
+
+
+.center-image {
+    display: block;       /* puts img on its own line, allows margin auto */
+    margin: 0 auto;       /* centers it horizontally */
 }
 
 /* Your content stays above the backgrounds */
