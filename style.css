@@ -40,6 +40,11 @@ h1 {
     text-align: center;  /* centers the text */
     margin: 0 auto;      /* optional, for centering the block itself */
     font-size: 24px;
+    color: white;             /* text color */
+    text-decoration: none;    /* remove underline */
+    background-color: #3498db; /* blue box */
+    padding: 10px 15px;       /* space inside box */
+    border-radius: 6px;       /* rounded corners (optional) */
 }
 
 /* Your content stays above the backgrounds */
