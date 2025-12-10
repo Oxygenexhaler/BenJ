@@ -38,7 +38,7 @@ h1 {
 .center-link {
     display: block;      /* allows centering */
     width: 200px;
-    opacity: 0.5;
+    opacity: 0.7;
     text-align: center;  /* centers the text */
     margin: 0 auto;      /* optional, for centering the block itself */
     font-size: 24px;
