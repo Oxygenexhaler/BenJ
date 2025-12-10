@@ -55,6 +55,7 @@ h1 {
     margin: 0 auto;       /* centers it horizontally */
     width: 500px;   /* image width */
     height: 400px;  /* image height */
+    pointer-events: none;
 }
 
 .center-image-phone {
@@ -62,6 +63,7 @@ h1 {
     margin: 0 auto;       /* centers it horizontally */
     width: 500px;   /* image width */
     height: 600px;  /* image height */
+    pointer-events: none;
 }
 
 /* Your content stays above the backgrounds */
