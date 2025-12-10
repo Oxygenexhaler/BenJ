@@ -51,8 +51,8 @@ h1 {
 .center-image {
     display: block;       /* puts img on its own line, allows margin auto */
     margin: 0 auto;       /* centers it horizontally */
-    width: 300px;   /* image width */
-    height: 200px;  /* image height */
+    width: 500px;   /* image width */
+    height: 400px;  /* image height */
 }
 
 /* Your content stays above the backgrounds */
