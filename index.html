@@ -4,22 +4,22 @@
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
   </head>
-  <script>
+<script>
 let index = 0;
 
 function updateSlide() {
     const slides = document.querySelector('.slides');
-    slides.style.transform = `translateX(-${index * 500}px)`; // 500px = image width
+    slides.style.transform = `translateX(-${index * 500}px)`; 
 }
 
 function nextSlide() {
-    const total = document.querySelectorAll('.slides a').length;
+    const total = document.querySelectorAll('.slide').length;
     index = (index + 1) % total;
     updateSlide();
 }
 
 function prevSlide() {
-    const total = document.querySelectorAll('.slides a').length;
+    const total = document.querySelectorAll('.slide').length;
     index = (index - 1 + total) % total;
     updateSlide();
 }
