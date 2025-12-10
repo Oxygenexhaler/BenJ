@@ -73,6 +73,11 @@ h1 {
     padding: 30px;
 }
 
+.page-paragraph{
+    width: 60%;
+    color: grey;
+}
+
 .home-button {
     position: absolute;   /* place it in a fixed spot */
     top: 10px;            /* distance from top */
