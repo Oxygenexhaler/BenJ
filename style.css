@@ -57,6 +57,13 @@ h1 {
     height: 400px;  /* image height */
 }
 
+.center-image-phone {
+    display: block;       /* puts img on its own line, allows margin auto */
+    margin: 0 auto;       /* centers it horizontally */
+    width: 500px;   /* image width */
+    height: 600px;  /* image height */
+}
+
 /* Your content stays above the backgrounds */
 .content {
     position: relative;
