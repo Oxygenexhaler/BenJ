@@ -86,3 +86,52 @@ h1 {
     font-size: 18px;
     z-index: 9999;
 }
+
+/* Slider wrapper */
+.slider {
+    position: relative;
+    width: 500px;       /* match image width */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Container holding all slides */
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Links inside slider */
+.slides a {
+    flex-shrink: 0;
+}
+
+/* Each slide image */
+.slide {
+    width: 500px;
+    height: auto;
+    display: block;
+}
+
+/* Arrows */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 20;
+}
+
+.arrow.left {
+    left: 10px;
+}
+
+.arrow.right {
+    right: 10px;
+}

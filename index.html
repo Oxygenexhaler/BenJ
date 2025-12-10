@@ -4,6 +4,27 @@
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
   </head>
+  <script>
+let index = 0;
+
+function updateSlide() {
+    const slides = document.querySelector('.slides');
+    slides.style.transform = `translateX(-${index * 500}px)`; // 500px = image width
+}
+
+function nextSlide() {
+    const total = document.querySelectorAll('.slides a').length;
+    index = (index + 1) % total;
+    updateSlide();
+}
+
+function prevSlide() {
+    const total = document.querySelectorAll('.slides a').length;
+    index = (index - 1 + total) % total;
+    updateSlide();
+}
+</script>
+
   <body bgcolor="LightGray" >
     <div class="background-wrapper">
     <div class="bg left-bg"></div>
@@ -13,6 +34,35 @@
 
 <div class="content">
     <h1 align="center">Following is a summary of a collection of projects I have worked on</h1>
+
+    <div class="slider">
+    <button class="arrow left" onclick="prevSlide()">❮</button>
+
+    <div class="slides">
+        <a href="https://oxygenexhaler.github.io/BenJ/Projects/Project1/">
+            <img src="DungeonCrawl.png" class="slide">
+        </a>
+
+        <a href="https://oxygenexhaler.github.io/BenJ/Projects/Project2/">
+            <img src="HellSkater.png" class="slide">
+        </a>
+
+        <a href="https://oxygenexhaler.github.io/BenJ/Projects/Project3/">
+            <img src="Witch.png" class="slide">
+        </a>
+
+        <a href="https://oxygenexhaler.github.io/BenJ/Projects/Project4/">
+            <img src="SeamenShooters.png" class="slide">
+        </a>
+
+        <a href="https://oxygenexhaler.github.io/BenJ/Projects/Project5/">
+            <img src="SkrapSkrald.png" class="slide">
+        </a>
+    </div>
+
+    <button class="arrow right" onclick="nextSlide()">❯</button>
+    </div>  
+
     <a href="https://oxygenexhaler.github.io/BenJ/Projects/Project1/" class="center-link">Dungeon Dive</a>
     <br>
     <a href="https://oxygenexhaler.github.io/BenJ/Projects/Project1/">
