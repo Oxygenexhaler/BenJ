@@ -18,17 +18,17 @@
 /* Panels */
 .left-bg {
     width: 20%;
-    background-image: url("left.png");
+    background-image: url("Black.png");
 }
 
 .center-bg {
     width: 60%;
-    background-image: url("center.png");
+    background-image: url("Brown.png");
 }
 
 .right-bg {
     width: 20%;
-    background-image: url("right.png");
+    background-image: url("Black.png");
 }
 
 h1 {
