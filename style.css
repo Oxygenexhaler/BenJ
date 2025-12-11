@@ -56,6 +56,8 @@ h1 {
     width: 500px;   /* image width */
     height: 400px;  /* image height */
     pointer-events: none;
+    border-radius: 20px;     /* controls how round the corners are */
+    border: 5px solid #333;
 }
 
 .center-image-phone {
@@ -64,6 +66,8 @@ h1 {
     width: 500px;   /* image width */
     height: 600px;  /* image height */
     pointer-events: none;
+    border-radius: 20px;     /* controls how round the corners are */
+    border: 5px solid #333;
 }
 
 /* Your content stays above the backgrounds */
